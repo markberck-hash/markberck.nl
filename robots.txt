@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+Disallow: /README.md
+Disallow: /.htaccess
+Disallow: /web.config
+Disallow: /.env
+Disallow: /.gitignore
+Disallow: /.git/
+Disallow: /.github/
+Disallow: /node_modules/
+
+Sitemap: https://markberck.nl/sitemap.xml

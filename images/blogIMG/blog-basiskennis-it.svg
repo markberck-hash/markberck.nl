@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Basiskennis IT</title>
+  <desc id="desc">Een netwerkdiagram met computer, server en basisbegrippen voor IT.</desc>
+  <rect width="1200" height="700" fill="#fdf8e8"/>
+  <rect width="1200" height="18" fill="#ffb900"/>
+  <rect y="682" width="1200" height="18" fill="#f25022"/>
+  <path d="M265 305h670M600 165v300M265 305l335 160 335-160" fill="none" stroke="#0067b8" stroke-width="10"/>
+  <circle cx="265" cy="305" r="108" fill="#ffffff" stroke="#004f91" stroke-width="9"/>
+  <rect x="215" y="255" width="100" height="70" rx="5" fill="#eef8fd" stroke="#0067b8" stroke-width="7"/>
+  <line x1="235" y1="345" x2="295" y2="345" stroke="#004f91" stroke-width="9"/><line x1="265" y1="325" x2="265" y2="345" stroke="#004f91" stroke-width="9"/>
+  <circle cx="600" cy="165" r="108" fill="#ffffff" stroke="#004f91" stroke-width="9"/>
+  <rect x="550" y="115" width="100" height="105" rx="5" fill="#eef8fd" stroke="#0067b8" stroke-width="7"/>
+  <line x1="570" y1="145" x2="630" y2="145" stroke="#7fba00" stroke-width="9"/><line x1="570" y1="170" x2="630" y2="170" stroke="#7fba00" stroke-width="9"/><line x1="570" y1="195" x2="630" y2="195" stroke="#7fba00" stroke-width="9"/>
+  <circle cx="935" cy="305" r="108" fill="#ffffff" stroke="#004f91" stroke-width="9"/>
+  <path d="M935 245v120M875 305h120M895 265l80 80M975 265l-80 80" stroke="#f25022" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="600" cy="465" r="108" fill="#ffffff" stroke="#004f91" stroke-width="9"/>
+  <text x="600" y="488" text-anchor="middle" font-family="Tahoma, Verdana, sans-serif" font-size="52" font-weight="700" fill="#0067b8">IT</text>
+  <text x="168" y="575" font-family="Tahoma, Verdana, sans-serif" font-size="28" font-weight="700" fill="#004f91">NETWERK</text>
+  <text x="512" y="575" font-family="Tahoma, Verdana, sans-serif" font-size="28" font-weight="700" fill="#004f91">BASIS</text>
+  <text x="855" y="575" font-family="Tahoma, Verdana, sans-serif" font-size="28" font-weight="700" fill="#004f91">SECURITY</text>
+</svg>

@@ -1,0 +1,22 @@
+# Mark Berck
+
+> Persoonlijke website van Mark Berck over functioneel beheer, ketenregie, governance, DPIA en AI.
+
+## Belangrijke pagina's
+
+- [Startpagina](https://markberck.nl/): Overzicht van expertise en actuele onderwerpen.
+- [Blog](https://markberck.nl/blog): Artikelen over functioneel beheer en governance.
+- [Projecten](https://markberck.nl/projecten): Persoonlijke projecten en uitwerkingen.
+- [CV](https://markberck.nl/cv): Overzicht van opdrachten, ervaring en certificeringen.
+- [Wie is Mark?](https://markberck.nl/wie-is-mark): Profiel, kennis en vaardigheden.
+- [Contact](https://markberck.nl/contact): Contactmogelijkheden.
+
+## Onderwerpen
+
+De site behandelt onder meer functioneel beheer, ketenregie, informatieplanning,
+privacy, DPIA, AI-governance, adoptie en het werkbaar maken van processen.
+
+## Machineleesbare bronbestanden
+
+Blogartikelen staan als Markdown in `content/blog/`. De pagina's worden als statische
+website aangeboden; controleer de bronpagina zelf voor de meest actuele inhoud.

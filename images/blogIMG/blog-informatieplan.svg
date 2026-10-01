@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Het informatieplan</title>
+  <desc id="desc">Een informatieplan dat organisatie, processen en IT met elkaar verbindt.</desc>
+  <rect width="1200" height="700" fill="#fdf1ee"/>
+  <rect width="1200" height="18" fill="#f25022"/>
+  <rect y="682" width="1200" height="18" fill="#7fba00"/>
+  <rect x="410" y="100" width="380" height="490" rx="10" fill="#ffffff" stroke="#004f91" stroke-width="9"/>
+  <rect x="475" y="165" width="250" height="50" fill="#eef8fd" stroke="#0067b8" stroke-width="5"/>
+  <text x="600" y="201" text-anchor="middle" font-family="Tahoma, Verdana, sans-serif" font-size="29" font-weight="700" fill="#004f91">INFORMATIEPLAN</text>
+  <line x1="475" y1="280" x2="725" y2="280" stroke="#c9c9c9" stroke-width="8"/>
+  <line x1="475" y1="315" x2="680" y2="315" stroke="#c9c9c9" stroke-width="8"/>
+  <line x1="475" y1="350" x2="710" y2="350" stroke="#c9c9c9" stroke-width="8"/>
+  <circle cx="500" cy="430" r="17" fill="#7fba00"/><path d="M492 430l7 8 15-20" fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="500" cy="490" r="17" fill="#7fba00"/><path d="M492 490l7 8 15-20" fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="545" y1="430" x2="700" y2="430" stroke="#0067b8" stroke-width="8"/>
+  <line x1="545" y1="490" x2="680" y2="490" stroke="#0067b8" stroke-width="8"/>
+  <path d="M410 245H245M790 245h165M410 525H245M790 525h165" stroke="#004f91" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="170" cy="245" r="74" fill="#ffffff" stroke="#f25022" stroke-width="9"/>
+  <path d="M170 202v86M127 245h86" stroke="#f25022" stroke-width="10" stroke-linecap="round"/>
+  <text x="170" y="350" text-anchor="middle" font-family="Tahoma, Verdana, sans-serif" font-size="27" font-weight="700" fill="#004f91">ORGANISATIE</text>
+  <circle cx="1030" cy="245" r="74" fill="#ffffff" stroke="#7fba00" stroke-width="9"/>
+  <path d="M990 245h80M1030 205v80" stroke="#7fba00" stroke-width="10" stroke-linecap="round"/>
+  <text x="1030" y="350" text-anchor="middle" font-family="Tahoma, Verdana, sans-serif" font-size="27" font-weight="700" fill="#004f91">IT</text>
+  <circle cx="170" cy="525" r="74" fill="#ffffff" stroke="#0067b8" stroke-width="9"/>
+  <path d="M132 525h76M170 487v76" stroke="#0067b8" stroke-width="10" stroke-linecap="round"/>
+  <text x="170" y="630" text-anchor="middle" font-family="Tahoma, Verdana, sans-serif" font-size="27" font-weight="700" fill="#004f91">PROCESSEN</text>
+  <circle cx="1030" cy="525" r="74" fill="#ffffff" stroke="#ffb900" stroke-width="9"/>
+  <path d="M995 525h70M1030 490v70" stroke="#ffb900" stroke-width="10" stroke-linecap="round"/>
+  <text x="1030" y="630" text-anchor="middle" font-family="Tahoma, Verdana, sans-serif" font-size="27" font-weight="700" fill="#004f91">RICHTING</text>
+</svg>

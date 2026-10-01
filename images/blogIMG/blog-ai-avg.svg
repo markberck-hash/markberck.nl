@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">AI en AVG-risicoanalyse</title>
+  <desc id="desc">Een document met AVG-risicovragen, verbonden met een AI-symbool en een controlemarkering.</desc>
+  <rect width="1200" height="700" fill="#eef8fd"/>
+  <rect x="0" y="0" width="1200" height="18" fill="#0067b8"/>
+  <rect x="0" y="682" width="1200" height="18" fill="#ffb900"/>
+  <circle cx="1010" cy="155" r="116" fill="#d8f0fb"/>
+  <circle cx="1010" cy="155" r="72" fill="#ffffff" stroke="#0067b8" stroke-width="10"/>
+  <path d="M1010 101v108M956 155h108M972 117l76 76M1048 117l-76 76" stroke="#0067b8" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="1010" cy="155" r="18" fill="#f25022"/>
+  <rect x="150" y="92" width="530" height="520" rx="8" fill="#ffffff" stroke="#004f91" stroke-width="8"/>
+  <path d="M214 92h330l136 136v384H214z" fill="#ffffff"/>
+  <path d="M544 92v136h136" fill="#d8f0fb" stroke="#004f91" stroke-width="8" stroke-linejoin="round"/>
+  <text x="220" y="190" font-family="Tahoma, Verdana, sans-serif" font-size="48" font-weight="700" fill="#004f91">AVG</text>
+  <text x="220" y="270" font-family="Tahoma, Verdana, sans-serif" font-size="27" font-weight="700" fill="#222222">Risicoanalyse</text>
+  <line x1="220" y1="310" x2="590" y2="310" stroke="#c9c9c9" stroke-width="5"/>
+  <circle cx="246" cy="365" r="15" fill="#7fba00"/>
+  <path d="M238 365l7 7 14-17" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="282" y="375" font-family="Tahoma, Verdana, sans-serif" font-size="25" fill="#222222">Verwerking</text>
+  <circle cx="246" cy="430" r="15" fill="#7fba00"/>
+  <path d="M238 430l7 7 14-17" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="282" y="440" font-family="Tahoma, Verdana, sans-serif" font-size="25" fill="#222222">Grondslag</text>
+  <circle cx="246" cy="495" r="15" fill="#ffb900"/>
+  <text x="282" y="505" font-family="Tahoma, Verdana, sans-serif" font-size="25" fill="#222222">Proportionaliteit</text>
+  <path d="M735 480c54-78 112-114 178-108 51 5 91 31 118 78" fill="none" stroke="#0067b8" stroke-width="10" stroke-linecap="round"/>
+  <path d="M1024 447l14 4-5 14" fill="none" stroke="#0067b8" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="752" cy="495" r="54" fill="#f25022"/>
+  <path d="M752 466v34" stroke="#ffffff" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="752" cy="520" r="7" fill="#ffffff"/>
+  <text x="820" y="535" font-family="Tahoma, Verdana, sans-serif" font-size="28" font-weight="700" fill="#004f91">AI vraagt om scherpte</text>
+</svg>

@@ -1,0 +1,394 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<title>CV — Mark Berck</title>
+<style>
+  :root {
+    --color-red: #f25022;
+    --color-green: #7fba00;
+    --color-blue: #00a4ef;
+    --color-yellow: #ffb900;
+    --text: #222222;
+    --text-muted: #5b5b5b;
+    --line: #c9c9c9;
+    --focus: #0067b8;
+  }
+
+  @page {
+    size: A4;
+    margin: 16mm 18mm;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    font-family: Tahoma, Verdana, sans-serif;
+    color: var(--text);
+    font-size: 10.3pt;
+    line-height: 1.5;
+  }
+
+  header {
+    position: relative;
+    padding-bottom: 10pt;
+    margin-bottom: 14pt;
+    border-bottom: 3px solid var(--focus);
+  }
+
+  header::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -3px;
+    height: 3px;
+    background: linear-gradient(90deg, var(--color-red) 0 25%, var(--color-green) 25% 50%, var(--color-blue) 50% 75%, var(--color-yellow) 75%);
+  }
+
+  h1 {
+    margin: 0 0 2pt;
+    font-size: 20pt;
+    font-weight: 700;
+    color: var(--text);
+  }
+
+  .role {
+    margin: 0 0 6pt;
+    font-size: 12pt;
+    font-weight: 600;
+    color: var(--focus);
+  }
+
+  .contact-line {
+    font-size: 9pt;
+    color: var(--text-muted);
+  }
+
+  .contact-line span + span::before {
+    content: "  ·  ";
+    color: var(--line);
+  }
+
+  h2 {
+    font-size: 12pt;
+    font-weight: 700;
+    color: var(--text);
+    margin: 16pt 0 6pt;
+    padding-bottom: 3pt;
+    border-bottom: 2px solid var(--color-blue);
+  }
+
+  section + section h2:first-child {
+    margin-top: 16pt;
+  }
+
+  p {
+    margin: 0 0 6pt;
+  }
+
+  .tag-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4pt;
+    margin: 4pt 0 0;
+  }
+
+  .tag {
+    display: inline-block;
+    padding: 2pt 6pt;
+    background: #f4f9fb;
+    border: 1px solid #9bc9e3;
+    color: #135f8d;
+    font-size: 8.3pt;
+    font-weight: 600;
+  }
+
+  .assignment {
+    padding: 8pt 0 10pt 10pt;
+    margin-bottom: 8pt;
+    border-left: 3px solid var(--color-blue);
+    page-break-inside: avoid;
+  }
+
+  .assignment:nth-child(4n+2) { border-left-color: var(--color-green); }
+  .assignment:nth-child(4n+3) { border-left-color: var(--color-red); }
+  .assignment:nth-child(4n) { border-left-color: var(--color-yellow); }
+
+  .assignment h3 {
+    margin: 0;
+    font-size: 10.6pt;
+    font-weight: 700;
+  }
+
+  .meta {
+    color: var(--text-muted);
+    font-size: 9pt;
+    font-weight: 600;
+    margin: 1pt 0 4pt;
+  }
+
+  .assignment ul {
+    margin: 3pt 0 3pt 14pt;
+    padding: 0;
+  }
+
+  .assignment li {
+    margin: 1.5pt 0;
+  }
+
+  .assignment h4 {
+    margin: 5pt 0 1pt;
+    font-size: 9pt;
+    font-weight: 700;
+    color: var(--text-muted);
+  }
+
+  .compact-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .compact-list li {
+    margin: 0 0 5pt;
+    padding-left: 10pt;
+    border-left: 3px solid var(--color-blue);
+  }
+
+  .compact-list li:nth-child(4n+2) { border-left-color: var(--color-green); }
+  .compact-list li:nth-child(4n+3) { border-left-color: var(--color-red); }
+  .compact-list li:nth-child(4n) { border-left-color: var(--color-yellow); }
+
+  .two-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 20pt;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Mark Berck</h1>
+  <p class="role">Functioneel Beheer &amp; Ketenregisseur</p>
+  <p class="contact-line">
+    <span>Elst, Utrecht</span>
+    <span>06 22 97 87 79</span>
+    <span>mark.berck@cavero.nl</span>
+    <span>linkedin.com/in/markberck</span>
+  </p>
+</header>
+
+<section>
+  <h2>Profiel</h2>
+  <p>Ik werk al ruim 20 jaar als senior functioneel beheerder in complexe digitale omgevingen binnen onderwijs, overheid en vitale infrastructuur. Organisaties vragen mij vaak bij implementaties, migraties en verandertrajecten, omdat daar beheerprocessen, applicatieketens, leveranciers en gebruikers op elkaar moeten worden afgestemd en dat zelden vanzelf gaat. Mijn sterkste kant is het overzien van die afhankelijkheden: ik vertaal functionele behoeften naar een inrichting die werkt, naar beheerafspraken die kloppen en naar ondersteuning die ook na de livegang stand houdt. Vanuit die basis heb ik mijn expertise verdiept met privacy- en AI-governance, zodat ik ook bij datastromen, risicoafwegingen en leveranciersafspraken kan beoordelen wat nodig is voor verantwoord en beheersbaar gebruik.</p>
+</section>
+
+<section>
+  <h2>Vakkennis</h2>
+  <div class="tag-list">
+    <span class="tag">AI-governance</span><span class="tag">DPIA</span><span class="tag">AVG/UAVG</span><span class="tag">AI Act</span><span class="tag">risicobeoordeling</span><span class="tag">privacy by design</span><span class="tag">informatiebeveiliging</span><span class="tag">datastromen</span><span class="tag">governance</span><span class="tag">procesinrichting</span><span class="tag">leveranciersmanagement</span><span class="tag">digitaal leren</span><span class="tag">onderwijslogistiek</span><span class="tag">LMS-beheer</span><span class="tag">functioneel beheer</span><span class="tag">adoptie- en verandermanagement</span><span class="tag">BiSL</span><span class="tag">CRM-processen</span><span class="tag">zaakgericht werken</span><span class="tag">procesmonitoring</span><span class="tag">ketenbeheer</span><span class="tag">ITIL</span><span class="tag">procesoptimalisatie</span><span class="tag">documentstromen</span><span class="tag">workflowbeheer</span><span class="tag">servicemanagement</span><span class="tag">kennisborging</span><span class="tag">risicobeheersing</span>
+  </div>
+</section>
+
+<section>
+  <h2>Tools en omgevingen</h2>
+  <div class="tag-list">
+    <span class="tag">Rijks DPIA-model</span><span class="tag">Microsoft 365 (Teams, SharePoint, Word, Excel)</span><span class="tag">Microsoft Copilot</span><span class="tag">GitHub Copilot</span><span class="tag">Miro</span><span class="tag">Mentimeter</span><span class="tag">FeedbackFruits</span><span class="tag">Brightspace</span><span class="tag">Topdesk</span><span class="tag">HTML/CSS</span><span class="tag">Verint Express (CRM)</span><span class="tag">zaaksysteem.nl</span><span class="tag">Verint WFM</span><span class="tag">EduArte</span><span class="tag">Remindo</span><span class="tag">OnStage (BPV)</span><span class="tag">Canvas</span><span class="tag">Ouriginal (Urkund)</span>
+  </div>
+</section>
+
+<section>
+  <h2>Werkervaring</h2>
+
+  <div class="assignment">
+    <h3>HAN (Hogeschool Arnhem Nijmegen)</h3>
+    <p class="meta">08-2026 – heden · Functioneel Beheer Plusport</p>
+    <p>De HAN heeft ondersteuning nodig bij het inrichten van het functioneel beheer van Plusport, een afgebakende opdracht van maximaal twaalf uur per week.</p>
+    <h4>Resultaat</h4>
+    <ul>
+      <li>Functioneel beheer voor Plusport ingericht passend binnen de beschikbare inzet.</li>
+      <li>Duidelijkere afspraken over ondersteuning, wijzigingen en verantwoordelijkheden.</li>
+    </ul>
+  </div>
+
+  <div class="assignment">
+    <h3>Rijkswaterstaat · Programma Gevelisolatie</h3>
+    <p class="meta">08-2026 – heden · Functioneel Beheerder</p>
+    <p>Dagelijks functioneel beheer van de centrale projectapplicatie voor registratie, planning en voortgangsbewaking van het isolatieproces van betrokken woningen, inclusief verdere inrichting van de beheerorganisatie.</p>
+    <h4>Resultaat</h4>
+    <ul>
+      <li>Meer continuïteit en beheersbaarheid van de centrale projectapplicatie.</li>
+      <li>Een beheerorganisatie met duidelijkere processen, verantwoordelijkheden en overdraagbare kennis.</li>
+    </ul>
+  </div>
+
+  <div class="assignment">
+    <h3>HAN (Hogeschool Arnhem Nijmegen)</h3>
+    <p class="meta">03-2026 – 07-2026 · Specialist AI-governance &amp; DPIA's</p>
+    <p>DPIA's en pre-DPIA's uitgevoerd voor AI-toepassingen in onderwijs en bedrijfsvoering, met aandacht voor gegevensverwerkingen, datastromen en leveranciersafhankelijkheden conform AVG/UAVG en de AI Act.</p>
+    <h4>Resultaat</h4>
+    <ul>
+      <li>Circa vijftien DPIA's uitgevoerd voor AI-toepassingen en educatieve tooling (o.a. GitHub Copilot, FeedbackFruits, Mentimeter, Miro).</li>
+      <li>Het HAN DPIA-template aangevuld met een hoofdstuk voor AI-gerelateerde verwerkingen en risico's.</li>
+      <li>Een herhaalbare werkwijze beschikbaar gemaakt voor het beoordelen van AI-toepassingen.</li>
+    </ul>
+  </div>
+
+  <div class="assignment">
+    <h3>HAN (Hogeschool Arnhem Nijmegen)</h3>
+    <p class="meta">07-2024 – 02-2026 · Centraal Functioneel Beheerder</p>
+    <p>Functionele implementatie en doorontwikkeling van Brightspace als centraal Digitaal Leerplatform voor ruim 33.000 studenten en 4.000 medewerkers, inclusief leveranciers­sturing en kwaliteitsrichtlijnen.</p>
+    <h4>Resultaat</h4>
+    <ul>
+      <li>Brightspace in gebruik genomen als centraal Digitaal Leerplatform binnen de HAN.</li>
+      <li>Uniforme cursusopbouw en herkenbare huisstijl gerealiseerd via templates en inrichtingseisen.</li>
+      <li>FeedbackFruits geïmplementeerd op basis van een uitgevoerde DPIA en expliciete risicoafweging.</li>
+      <li>Samenwerking tussen beheerorganisatie, Servicedesk en onderwijs geborgd in processen en documentatie.</li>
+    </ul>
+  </div>
+
+  <div class="assignment">
+    <h3>Het CAK</h3>
+    <p class="meta">01-2024 – 06-2024 · Functioneel Beheerder</p>
+    <p>Tijdelijke versterking van het functioneel beheer van het Klant Contact Centrum en de KBB-keten, met sterke afhankelijkheden tussen CRM, zaaksysteem en geautomatiseerde document- en processtromen.</p>
+    <h4>Resultaat</h4>
+    <ul>
+      <li>Beter beheerbare en consistenter ingerichte brieftemplates binnen het zaaksysteem.</li>
+      <li>Meer inzicht in document- en processtromen binnen de KCC- en KBB-keten.</li>
+    </ul>
+  </div>
+
+  <div class="assignment">
+    <h3>Hogeschool Rotterdam</h3>
+    <p class="meta">10-2022 – 12-2023 · Functioneel Beheerder</p>
+    <p>Functionele ondersteuning bij de overgang van meerdere LMS-omgevingen naar Brightspace als centraal leerplatform voor ruim 38.000 studenten en 4.200 medewerkers.</p>
+    <h4>Resultaat</h4>
+    <ul>
+      <li>Medeverantwoordelijk voor implementatie en inrichting van Brightspace als centraal LMS-platform.</li>
+      <li>Beheerprocessen en kennisstructuur geprofessionaliseerd; bestaande LMS-omgevingen uitgefaseerd.</li>
+    </ul>
+  </div>
+
+  <div class="assignment">
+    <h3>ROC Amsterdam en Flevoland</h3>
+    <p class="meta">03-2022 – 12-2022 · Functioneel Beheerder</p>
+    <p>Ondersteuning bij implementatie van OnStage en Remindo en functioneel beheer van EduArte, Canvas en BPV-gerelateerde processen binnen een keten met meerdere afhankelijkheden.</p>
+    <h4>Resultaat</h4>
+    <ul>
+      <li>OnStage-pilot ondersteund en werkend gekoppeld aan EduArte voor het BPV-proces.</li>
+      <li>Remindo geïmplementeerd met duidelijke beheerafspraken en vastgelegde werkwijzen.</li>
+    </ul>
+  </div>
+
+  <div class="assignment">
+    <h3>Vrije Universiteit Amsterdam</h3>
+    <p class="meta">06-2020 – 03-2022 · Functioneel Beheerder</p>
+    <p>Implementatie en borging van plagiaatdetectiesysteem Ouriginal, inclusief analyse van datastromen tussen Canvas en externe systemen en 3e-lijns ondersteuning.</p>
+    <h4>Resultaat</h4>
+    <ul>
+      <li>Succesvolle implementatie van Ouriginal met stabiele integratie in Canvas.</li>
+      <li>Een Nederlandse gebruikersgroep opgezet (o.a. met de UvA) voor kennisdeling en afstemming met de leverancier.</li>
+    </ul>
+  </div>
+
+  <div class="assignment">
+    <h3>Rijswijks Lyceum</h3>
+    <p class="meta">03-2020 – 04-2020 · Consultant</p>
+    <p>Ondersteuning bij de overstap naar digitale samenwerking tijdens de coronapandemie: Microsoft 365, intranetinrichting en migratie naar OneDrive.</p>
+  </div>
+
+  <div class="assignment">
+    <h3>HTM</h3>
+    <p class="meta">01-2020 – 06-2020 · Consultant</p>
+    <p>Ondersteuning van projecten rond de Microsoft-werkplekomgeving en SharePoint-beheer.</p>
+  </div>
+
+  <div class="assignment">
+    <h3>NOC*NSF</h3>
+    <p class="meta">02-2020 · Consultant</p>
+    <p>Advies over inzet van SharePoint Online voor uniforme communicatie met leden en stakeholders.</p>
+  </div>
+
+  <div class="assignment">
+    <h3>TenneT TSO (Duitsland)</h3>
+    <p class="meta">04-2018 – 01-2020 · Functioneel Beheerder</p>
+    <p>Functioneel beheer van SharePoint binnen de Duitse organisatie en harmonisatie van governance-afspraken tussen Nederland en Duitsland op het gebied van documentbeheer en toegangsbeheer.</p>
+    <h4>Resultaat</h4>
+    <ul>
+      <li>Uniforme governance-afspraken gerealiseerd voor Nederland en Duitsland.</li>
+      <li>Internationale samenwerking ondersteund met eenduidige afspraken over classificatie en informatiebeheer.</li>
+    </ul>
+  </div>
+
+  <div class="assignment">
+    <h3>TenneT TSO (Nederland)</h3>
+    <p class="meta">11-2015 – 04-2018 · Teamleider Applicatiebeheer</p>
+    <p>Leiding gegeven aan het applicatiebeheerteam, ketenregie gevoerd over MyTenneT en een jarenlang uitgestelde Docuware-upgrade gerealiseerd.</p>
+    <h4>Resultaat</h4>
+    <ul>
+      <li>MyTenneT beheersbaar gemaakt door duidelijke ketenafspraken en structurele afstemming.</li>
+      <li>Docuware-upgrade succesvol uitgevoerd zonder verdere vertraging.</li>
+    </ul>
+  </div>
+
+  <div class="assignment">
+    <h3>Fontys Hogescholen</h3>
+    <p class="meta">11-2014 – 11-2015 · SharePoint implementatiebegeleider en functioneel beheer</p>
+    <p>Begeleiding van de migratie van SharePoint 2007 naar 2013 voor 29 instituten en 9 diensten, inclusief standaardisatie en versterking van decentrale beheerteams.</p>
+    <h4>Resultaat</h4>
+    <ul>
+      <li>Succesvolle livegang van instituuts- en dienstenportalen met verbeterde informatievoorziening.</li>
+      <li>Beheerorganisatie beter toegerust dankzij kennisvergroting en duidelijke processen.</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2>Verdere ervaring</h2>
+  <ul class="compact-list">
+    <li><strong>Royal Cosun, Shell, Nováccent</strong> · SharePoint Consultant · 2013–2014</li>
+    <li><strong>Marviq</strong> · SharePoint Consultant &amp; Projectleider · 2012–2013</li>
+    <li><strong>Soma Bedrijfsopleidingen</strong> · SharePoint Consultant &amp; Technisch Projectleider · 2010–2012</li>
+    <li><strong>WestlandUtrecht Bank</strong> · SharePoint Consultant · 2011–2012</li>
+    <li><strong>Winvision</strong> · SharePoint Consultant &amp; Requirements Analist · 2012</li>
+    <li><strong>UMCN Radboud</strong> · SharePoint Consultant · 2012</li>
+    <li><strong>Pieter van Foreest</strong> · SharePoint Architect · 2011–2012</li>
+    <li><strong>ICTU</strong> · Business Consultant &amp; Security Officer · 2007–2010</li>
+    <li><strong>Inter Access</strong> · .NET Developer &amp; SharePoint Consultant · 2007–2009</li>
+    <li><strong>Ministerie van Buitenlandse Zaken</strong> · .NET Developer · 2006</li>
+    <li><strong>Bistro</strong> · .NET Developer · 2005–2006</li>
+    <li><strong>Akzo Nobel</strong> · .NET Developer · 2001–2005</li>
+  </ul>
+</section>
+
+<div class="two-column">
+  <section>
+    <h2>Certificeringen</h2>
+    <ul class="compact-list">
+      <li>2023 · Professional Scrum Master I (Scrum.org)</li>
+      <li>2017 · Communicatie en Samenwerken (interne TenneT training)</li>
+      <li>2014 · Senior Consultancy Skills, verdieping (interne Cavero training)</li>
+      <li>2014 · BiSL Foundation (Computrain)</li>
+      <li>2012 · Senior Consultancy Skills (Savonije Training &amp; Coaching)</li>
+      <li>2008 · BPMS en BPMN (Intalio)</li>
+      <li>2006 · Prince2 Foundation</li>
+      <li>2005 · ITIL Service Management Foundation</li>
+      <li>2001–2013 · SharePoint, .NET, webontwikkeling (Microsoft trainingen)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Opleiding</h2>
+    <ul class="compact-list">
+      <li>1997–2001 · MTS Technische Informatica · Technisch College Ede</li>
+    </ul>
+  </section>
+</div>
+
+</body>
+</html>

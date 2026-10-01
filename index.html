@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mark Berck | Complexiteit werkbaar maken</title>
+  <meta name="description" content="Professionele persoonlijke website van Mark Berck over functioneel beheer, ketenregie, DPIA, AI-governance en projecten.">
+  <link rel="icon" href="/images/logo.svg?v=1" type="image/svg+xml">
+  <link rel="canonical" href="https://markberck.nl/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Mark Berck">
+  <meta property="og:title" content="Mark Berck | Complexiteit werkbaar maken">
+  <meta property="og:description" content="Professionele persoonlijke website van Mark Berck over functioneel beheer, ketenregie, DPIA, AI-governance en projecten.">
+  <meta property="og:url" content="https://markberck.nl/">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Mark Berck",
+      "url": "https://markberck.nl/",
+      "jobTitle": "Functioneel Beheer & Ketenregisseur",
+      "sameAs": ["https://www.linkedin.com/in/markberck/"]
+    }
+  </script>
+  <link rel="stylesheet" href="/css/styles.css?v=12">
+  <script defer src="/js/data.js?v=12"></script>
+  <script defer src="/js/app.js?v=16"></script>
+</head>
+<body>
+  <a class="skip-link" href="#inhoud">Direct naar inhoud</a>
+
+  <header class="site-header">
+    <a class="brand" href="/" data-route="start" aria-label="Naar startpagina">
+      <img class="brand-mark" src="/images/logo.svg" alt="" aria-hidden="true">
+      <span>Mark Berck</span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+    <nav id="primary-nav" class="topnav" aria-label="Hoofdnavigatie">
+      <a href="/" data-route="start">Startpagina</a>
+      <a href="/blog" data-route="blog">Blog</a>
+      <a href="/projecten" data-route="projecten">Projecten</a>
+      <a href="/wie-is-mark" data-route="wie-is-mark">Wie is Mark</a>
+      <a href="/cv" data-route="cv">CV</a>
+      <a href="/contact" data-route="contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="inhoud" tabindex="-1">
+    <div id="route-status" class="visually-hidden" role="status" aria-live="polite" aria-atomic="true"></div>
+
+    <section id="start" class="page active" aria-labelledby="start-title">
+      <section class="hero hero-overlay">
+        <div class="hero-copy">
+          <p class="kicker">Functioneel beheer · Ketenregie · Governance</p>
+          <h1 id="start-title">Systemen, processen en werkafspraken op elkaar laten aansluiten.</h1>
+          <p class="lead">Een applicatie werkend krijgen is meestal het makkelijkste deel. Het wordt 
+             interessant zodra gebruikers ermee moeten werken, gegevens op de juiste plek moeten komen
+             en beheerders moeten weten waar ze aan toe zijn. Dat geregeld krijgen is waar ik blij van
+             word en wat ik goed kan.</p>
+          <div class="actions">
+            <a class="button primary" href="/projecten" data-route="projecten">Bekijk projecten</a>
+            <a class="button secondary" href="/cv" data-route="cv">Bekijk CV</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="intro-grid" aria-label="Kernpunten">
+        <article class="topic-card">
+          <p class="kicker">Overzicht</p>
+          <h2>Wat speelt er precies?</h2>
+          <p>Voordat er iets veranderd moet worden is het belangrijk om de huidige situatie in kaart
+             te brengen, en gaten in documentatie of procedures scherp krijgen. Hierdoor leer je de 
+             grootste risico's en problemen kennen, en weet je beter waar te starten. 
+          </p>
+        </article>
+        <article class="topic-card">
+          <p class="kicker">Afweging</p>
+          <h2>Niet elke oplossing is de juiste</h2>
+          <p>Een wijziging kan logisch voelen, maar onbedoeld gevolgen hebben voor privacy, security, 
+            beheer of andere gebruikers. Dus voordat er gestart wordt met de oplossing kijk ik eerst naar deze en andere aspecten.
+        </p>
+        </article>
+        <article class="topic-card">
+          <p class="kicker">Inrichting</p>
+          <h2>Van keuze naar dagelijks gebruik</h2>
+          <p>Het lijkt allemaal simpel. We beslissen iets, laten dat verwerken in een IT systeem 
+            en denken daarmee dat het probleem is opgelost. Helaas is de praktijk weerbarstiger. 
+            Adoptie is een vak en kost tijd, beheersafspraken moeten worden gemaakt en beheersprocessen 
+            moeten worden ingericht.
+        </p>
+        </article>
+      </section>
+
+      <section class="split-block">
+        <div>
+          <p class="kicker">Laatste blogs</p>
+          <h2>Wat ik tegenkom in het werk</h2>
+          <p>Ik schrijf over dingen waar ik over nadenk na mijn werk; 
+            observaties, ervaringen en conclusies over denkprocessen.</p>
+        </div>
+        <div>
+          <div id="home-blog-list" class="compact-list"></div>
+          <p class="split-block-link"><a href="/blog" data-route="blog">Alle blogposts bekijken</a></p>
+        </div>
+      </section>
+    </section>
+
+    <section id="blog" class="page" aria-labelledby="blog-title">
+      <h1 id="blog-title">Blog</h1>
+      <p class="lead narrow">Observaties en praktijkervaringen uit functioneel beheer en governance.</p>
+      <div id="blog-list" class="blog-list"></div>
+    </section>
+
+    <section id="blog-detail" class="page" aria-labelledby="blog-detail-title">
+      <article id="blog-detail-content" class="article-detail"></article>
+    </section>
+
+    <section id="projecten" class="page" aria-labelledby="projecten-title">
+      <h1 id="projecten-title">Persoonlijke Projecten</h1>
+      <p class="lead narrow">Deze projecten heb ik gemaakt/uitgewerkt om mijzelf uit te dagen of om mijn denkrichtingen te valideren.</p>
+      <div id="project-list" class="project-list"></div>
+    </section>
+
+    <section id="cv" class="page" aria-labelledby="cv-title">
+      <h1 id="cv-title">CV</h1>
+      <p class="lead narrow">Een overzicht van opdrachten en ervaring.</p>
+      <p>
+        <a class="button secondary" href="/files/CV-Mark-Berck.pdf" download>
+          <span class="icon-svg icon-file-pdf" aria-hidden="true"></span> CV downloaden (pdf)
+        </a>
+      </p>
+      <div id="cv-summary" class="summary-strip"></div>
+      <div id="cv-list" class="assignment-list"></div>
+      <section class="result-panel">
+        <h2>Verdere ervaring</h2>
+        <div id="summary-experience"></div>
+      </section>
+      <section class="result-panel">
+        <h2>Opleiding en certificeringen</h2>
+        <div id="education-certifications"></div>
+      </section>
+    </section>
+
+    <section id="wie-is-mark" class="page" aria-labelledby="wie-title">
+      <h1 id="wie-title">Wie is Mark?</h1>
+      <p class="lead narrow">
+        Ik ben functioneel beheerder, en ik kom tot mijn recht als nog niet alles goed geregeld is. Afspraken, governance of procedures opstellen/inrichten dat is wat ik goed kan.</p>
+      <section class="result-panel readable">
+        <h2>Wat ik doe</h2>
+        <div id="profile-text"></div>
+      </section>
+      <section class="skills-layout">
+        <article class="result-panel">
+          <h2>Wat ik weet</h2>
+          <div id="skills-list" class="tag-list"></div>
+        </article>
+        <article class="result-panel">
+          <h2>Wat ik kan</h2>
+          <div id="tools-list" class="tag-list"></div>
+        </article>
+      </section>
+    </section>
+
+    <section id="contact" class="page" aria-labelledby="contact-title">
+      <h1 id="contact-title">Contact</h1>
+      <p class="lead narrow">Wil je sparren over een opdracht of vraagstuk? Neem contact op via LinkedIn of Cavero.</p>
+      <section class="contact-grid">
+        <article class="result-panel contact-card">
+          <h2>Mark Berck</h2>
+          <p>Functioneel Beheer & Ketenregie</p>
+          <p id="mark-phone"></p>
+          <p id="mark-email"></p>
+          <p>
+            <span class="icon-svg icon-linkedin" aria-hidden="true"></span>
+            <a href="https://www.linkedin.com/in/markberck/" target="_blank" rel="noopener noreferrer">LinkedIn-profiel bekijken</a>
+          </p>
+        </article>
+        <article class="result-panel contact-card contact-card-cavero">
+          <img class="cavero-logo" src="/images/cavero-logo.png" alt="Cavero logo">
+          <p>Voor opdrachten en samenwerking verloopt het contact meestal via Cavero.</p>
+          <p id="cavero-phone"></p>
+          <p id="cavero-email"></p>
+          <p>
+            <span class="icon-svg icon-globe" aria-hidden="true"></span>
+            <a href="https://cavero.nl" target="_blank" rel="noopener noreferrer">cavero.nl</a>
+          </p>
+        </article>
+      </section>
+    </section>
+
+    <section id="disclaimer" class="page readable" aria-labelledby="disclaimer-title">
+      <h1 id="disclaimer-title">Disclaimer</h1>
+      <p class="lead narrow">Deze website is de persoonlijke website van Mark Berck. Deze website is met behulp van AI ontwikkeld. Alle teksten en inhoud zijn van mijn hand.</p>
+      <p>Meningen, standpunten en zienswijzen zijn persoonlijk en vertegenwoordigen niet noodzakelijk de opvattingen van mijn werkgever of opdrachtgevers.</p>
+    </section>
+
+    <section id="privacy" class="page readable" aria-labelledby="privacy-title">
+      <h1 id="privacy-title">Privacy</h1>
+
+      <p class="lead narrow">
+        MarkBerck.nl verzamelt zelf geen persoonsgegevens en gebruikt geen tracking- of analysecookies.
+      </p>
+
+      <p>
+        Wel wordt er gebruik gemaakt van statistieken door de webserverlogs te analyseren. Deze zijn echter zo ingesteld dat IP-adressen niet volledig worden opgeslagen. Het laatste deel wordt vervangen door #, bijvoorbeeld 192.168.0.##. De logbestanden worden na 7 dagen automatisch verwijderd.
+      </p>
+
+      <p>
+        MarkBerck.nl laadt geen externe scripts, stylesheets, lettertypen of andere bronnen. Er worden daardoor bij het bezoeken van deze website geen gegevens met externe partijen gedeeld.
+      </p>
+
+      <p>
+        Wanneer je contact (dit kan alleen via email) opneemt, worden je contactgegevens alleen gebruikt om op je bericht te reageren. Ik verkoop of verstrek deze gegevens niet aan derden, behalve wanneer dat nodig is om aan een wettelijke verplichting te voldoen.
+      </p>
+
+      <p>
+        De website bevat wel links naar externe diensten, zoals LinkedIn en Cavero. Als je zo'n externe link opent, verlaat je deze website en geldt het privacybeleid van de externe partij.
+      </p>
+
+      <p>
+        Wil je weten welke gegevens ik van je heb (alleen je mailadres en je naam als je ooit contact hebt gezocht) of wil je gegevens laten aanpassen of verwijderen? Neem dan contact op via <a href="/contact" data-route="contact">de contactpagina</a>.
+      </p>
+    </section>
+
+    <section id="niet-gevonden" class="page" aria-labelledby="not-found-title">
+      <h1 id="not-found-title">Pagina niet gevonden</h1>
+      <p class="lead narrow">Deze pagina bestaat niet (meer), of je hebt een verkeerde link gevolgd.</p>
+      <a class="button primary" href="/" data-route="start">Naar startpagina</a>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <span>Mark Berck</span>
+      <span class="footer-separator">•</span>
+      <a href="/disclaimer" data-route="disclaimer">Disclaimer</a>
+      <span class="footer-separator">•</span>
+      <a href="/privacy" data-route="privacy">Privacy</a>
+      <span class="footer-separator">•</span>
+      <a href="/contact" data-route="contact">Contact</a>
+    </div>
+  </footer>
+</body>
+</html>

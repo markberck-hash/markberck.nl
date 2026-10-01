@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img" aria-label="Projectafbeelding DenkDPIA">
+  <rect width="400" height="240" fill="#f5f0fa" />
+  <rect width="400" height="5" fill="#6b3fa0" />
+
+  <!-- Verbindingslijn tussen de stappen -->
+  <line x1="80" y1="62" x2="80" y2="188" stroke="#c9b3e0" stroke-width="3" />
+
+  <!-- Stap 1: actief -->
+  <circle cx="80" cy="62" r="11" fill="#6b3fa0" />
+  <rect x="112" y="52" width="190" height="20" rx="2" fill="#6b3fa0" />
+
+  <!-- Stap 2 -->
+  <circle cx="80" cy="104" r="9" fill="none" stroke="#a883c9" stroke-width="3" />
+  <rect x="112" y="96" width="150" height="16" rx="2" fill="#d9c9ec" />
+
+  <!-- Stap 3 -->
+  <circle cx="80" cy="146" r="9" fill="none" stroke="#a883c9" stroke-width="3" />
+  <rect x="112" y="138" width="170" height="16" rx="2" fill="#d9c9ec" />
+
+  <!-- Stap 4 -->
+  <circle cx="80" cy="188" r="9" fill="none" stroke="#a883c9" stroke-width="3" />
+  <rect x="112" y="180" width="130" height="16" rx="2" fill="#d9c9ec" />
+</svg>

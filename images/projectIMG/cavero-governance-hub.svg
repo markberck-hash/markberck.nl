@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" role="img" aria-label="Projectafbeelding Cavero Governance Hub">
+  <rect width="400" height="240" fill="#1c2333" />
+
+  <!-- Merk: cirkel-badge met C, zoals het beeldmerk in de applicatie -->
+  <circle cx="34" cy="34" r="16" fill="none" stroke="#a85fd6" stroke-width="4" />
+  <text x="34" y="41" font-family="Tahoma, Verdana, sans-serif" font-size="16" font-weight="700" fill="#a85fd6" text-anchor="middle">C</text>
+  <text x="60" y="30" font-family="Tahoma, Verdana, sans-serif" font-size="12" font-weight="700" fill="#ffffff">Cavero</text>
+  <text x="60" y="44" font-family="Tahoma, Verdana, sans-serif" font-size="10" fill="#9aa3b5">Governance Hub</text>
+
+  <!-- Content-kaart met tabelrijen, als abstractie van het dienstenregister -->
+  <rect x="24" y="76" width="352" height="140" rx="4" fill="#ffffff" />
+  <rect x="40" y="94" width="120" height="10" rx="2" fill="#1c2333" />
+  <rect x="40" y="112" width="220" height="8" rx="2" fill="#d5d8e0" />
+
+  <rect x="40" y="136" width="220" height="1" fill="#e6e6e6" />
+  <rect x="40" y="150" width="90" height="8" rx="2" fill="#8a8f95" />
+  <rect x="300" y="146" width="56" height="18" rx="9" fill="#dff3e3" />
+  <rect x="310" y="151" width="36" height="8" rx="2" fill="#2f8f4e" />
+
+  <rect x="40" y="176" width="220" height="1" fill="#e6e6e6" />
+  <rect x="40" y="190" width="110" height="8" rx="2" fill="#8a8f95" />
+  <rect x="300" y="186" width="56" height="18" rx="9" fill="#f3e9fb" />
+  <rect x="310" y="191" width="36" height="8" rx="2" fill="#a85fd6" />
+</svg>
