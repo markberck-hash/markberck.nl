@@ -646,6 +646,13 @@ window.SITE_DATA = {
   ],
   "blog": [
     {
+      "slug": "denk-goed-na-over-je-bedrijfswebsite",
+      "title": "Denk goed na over je (bedrijfs)website.",
+      "date": "2026-10-21",
+      "excerpt": "Heb je voor een bedrijfswebsite echt server-side dynamiek nodig? Statische websites kunnen eenvoudiger, sneller en met een kleiner aanvalsoppervlak zijn.",
+      "image": "/images/blogIMG/blog-bedrijfswebsite.svg"
+    },
+    {
       "slug": "ai-verandert-niets-aan-de-wijze-waarop-avg",
       "title": "AI verandert niets aan de wijze waarop AVG-risico's worden behandeld",
       "date": "2026-09-11",

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Denk goed na over je bedrijfswebsite</title>
+  <desc id="desc">Een statische bedrijfswebsite met HTML, CSS en JavaScript, naast een server die niet nodig is voor eenvoudige pagina's.</desc>
+  <rect width="1200" height="700" fill="#eef8fd"/>
+  <rect width="1200" height="18" fill="#0067b8"/>
+  <rect y="682" width="1200" height="18" fill="#ffb900"/>
+  <circle cx="930" cy="170" r="122" fill="#d8f0fb"/>
+  <rect x="145" y="120" width="650" height="440" rx="18" fill="#ffffff" stroke="#004f91" stroke-width="10"/>
+  <path d="M163 138h614v52H163z" fill="#eef8fd"/>
+  <circle cx="194" cy="164" r="10" fill="#f25022"/>
+  <circle cx="228" cy="164" r="10" fill="#ffb900"/>
+  <circle cx="262" cy="164" r="10" fill="#7fba00"/>
+  <rect x="205" y="225" width="245" height="285" rx="8" fill="#f4f9ee"/>
+  <rect x="235" y="258" width="185" height="104" rx="5" fill="#d8f0fb"/>
+  <path d="M260 333l48-45 38 34 31-25 43 39v17H260z" fill="#7fba00"/>
+  <circle cx="382" cy="280" r="13" fill="#ffb900"/>
+  <line x1="235" y1="395" x2="412" y2="395" stroke="#0067b8" stroke-width="10" stroke-linecap="round"/>
+  <line x1="235" y1="425" x2="385" y2="425" stroke="#9bc9e3" stroke-width="9" stroke-linecap="round"/>
+  <line x1="235" y1="455" x2="402" y2="455" stroke="#9bc9e3" stroke-width="9" stroke-linecap="round"/>
+  <rect x="490" y="226" width="260" height="284" rx="8" fill="#ffffff" stroke="#c9e4f2" stroke-width="5"/>
+  <text x="520" y="282" font-family="Tahoma, Verdana, sans-serif" font-size="30" font-weight="700" fill="#004f91">Eenvoudig</text>
+  <text x="520" y="326" font-family="Tahoma, Verdana, sans-serif" font-size="24" fill="#222222">HTML</text>
+  <line x1="620" y1="317" x2="710" y2="317" stroke="#0067b8" stroke-width="8" stroke-linecap="round"/>
+  <text x="520" y="374" font-family="Tahoma, Verdana, sans-serif" font-size="24" fill="#222222">CSS</text>
+  <line x1="620" y1="365" x2="685" y2="365" stroke="#f25022" stroke-width="8" stroke-linecap="round"/>
+  <text x="520" y="422" font-family="Tahoma, Verdana, sans-serif" font-size="24" fill="#222222">JavaScript</text>
+  <line x1="660" y1="413" x2="710" y2="413" stroke="#ffb900" stroke-width="8" stroke-linecap="round"/>
+  <path d="M890 250h168M1058 250l45-43" fill="none" stroke="#0067b8" stroke-width="9" stroke-linecap="round"/>
+  <path d="M1080 206l26 1-2 26" fill="none" stroke="#0067b8" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="900" y="300" width="190" height="220" rx="12" fill="#ffffff" stroke="#9bc9e3" stroke-width="8"/>
+  <rect x="930" y="332" width="130" height="48" rx="5" fill="#eef8fd" stroke="#0067b8" stroke-width="5"/>
+  <circle cx="950" cy="356" r="7" fill="#7fba00"/>
+  <line x1="970" y1="356" x2="1042" y2="356" stroke="#9bc9e3" stroke-width="7" stroke-linecap="round"/>
+  <rect x="930" y="398" width="130" height="48" rx="5" fill="#eef8fd" stroke="#0067b8" stroke-width="5"/>
+  <circle cx="950" cy="422" r="7" fill="#7fba00"/>
+  <line x1="970" y1="422" x2="1042" y2="422" stroke="#9bc9e3" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="1072" cy="485" r="56" fill="#7fba00" stroke="#ffffff" stroke-width="8"/>
+  <path d="M1046 485l18 18 35-40" fill="none" stroke="#ffffff" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="600" y="627" text-anchor="middle" font-family="Tahoma, Verdana, sans-serif" font-size="32" font-weight="700" fill="#004f91">Een website hoeft niet altijd dynamisch te zijn</text>
+</svg>

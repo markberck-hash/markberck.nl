@@ -5,13 +5,11 @@
 AddType text/markdown .md
 
 # Voorkom dat configuratie- en projectbestanden publiek worden uitgeleverd.
-<FilesMatch "^(README\.md|web\.config|\.htaccess|\.gitignore|\.env(?:\..*)?)$">
-  Require all denied
-</FilesMatch>
-
 <IfModule mod_rewrite.c>
   RewriteEngine On
   RewriteBase /
+  RewriteRule (^|/)(?:\.git|\.github|node_modules)(?:/|$) - [R=404,L,NC]
+  RewriteRule (^|/)(?:README\.md|web\.config|\.htaccess|\.gitignore|\.env(?:\..*)?|[^/]+\.config)$ - [R=404,L,NC]
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
   RewriteRule ^ index.html [L]
