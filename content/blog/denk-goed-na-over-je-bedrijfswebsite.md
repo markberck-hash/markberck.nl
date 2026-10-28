@@ -29,7 +29,7 @@ mogelijk goedkoper.
 
 **Contactformulier?**
 
-Het argument dat ik vaak hoor, ik heb een server-side taal nodig voor de afhankelijk
+Het argument dat ik vaak hoor, ik heb een server-side taal nodig voor de afhandeling
 van mijn contactformulier. Maar ik durf te stellen dat dat helemaal niet waar
 is.
 
